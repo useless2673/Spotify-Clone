@@ -295,12 +295,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-right: 1.75rem;
+  margin-right: 0.75rem;
 }
 
 .controls-icon {
   font-size: 1rem;
-  margin-left: 1rem;
+  margin-right: 1rem;
   opacity: 0.7;
  // font-weight: 300;
   cursor: pointer;
@@ -312,12 +312,13 @@ a {
   opacity: 1;
 }
 .volume-bar {
-  width: 30%;
+  width: 20%;
   appearance: none;
   cursor: pointer;
   border-radius: 100px;
   cursor: pointer;
-  margin-left: 0.5rem;
+  margin-left:-0.5rem;
+  margin-right:0.5rem;
 }
 
 
