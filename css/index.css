@@ -222,7 +222,6 @@ a {
 .progress-bar {
   width: 70%;
   appearance: none;
-  background: transparent;
   cursor: pointer;
 }
 
@@ -243,6 +242,10 @@ a {
   border-radius: 50%;
   background: #ffffff;
   margin-top: -5px;
+  display:none;
+}
+.progress-bar:hover::-webkit-slider-thumb {
+  display:block;
 }
 
 
@@ -252,7 +255,39 @@ a {
     #3a3a3a;
 }
 
-
+.time {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin: 0 1rem;
+}
 .controls {
   width: 25%;
+}
+.album{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.album_image{
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.album-info{
+  margin-left: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.album-info:hover{
+  text-decoration: underline;
+}
+.album-icon{
+  font-size: 1rem;
+  margin-left: 1rem;
+  opacity: 0.7;
+  color: #ffffff;
+}
+.album-icon:hover{
+  opacity: 1;
 }

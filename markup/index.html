@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <link rel="icon" href="../images/logo.png" />
-    <title>Spotify - Web Developer: Music for everyone</title>
+    <title>Spotify - Web Player: Music for everyone</title>
   </head>
   <body>
     <div class="main">
@@ -127,7 +127,11 @@
         </div>
       </div>
       <div class="music-player">
-        <div class="album"></div>
+        <div class="album">
+            <img src="../images/card5img.jpeg" class="album_image" />
+            <a class="album-info">Top Songs - Global</a>
+            <i class="fa-solid fa-circle-plus album-icon"></i>
+        </div>
         <div class="player">
             <div class="player-controls">
                 <img src="../images/player_icon1.png" class="player-control-icon">
@@ -137,9 +141,9 @@
                 <img src="../images/player_icon5.png" class="player-control-icon">
             </div>
             <div class="playback-bar">
-                <span class="current-time">0:00</span>
-                <input type="range" min="0" max="100" class="progress-bar" step="1"/>                
-                <span class="total-time">02:45</span>
+                <span class="time">0:00</span>
+                <input type="range" min="0" max="100" class="progress-bar" step="1" value="33"/>                
+                <span class="time">02:45</span>
             </div>
         </div>
         <div class="controls"></div>
